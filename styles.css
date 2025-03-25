@@ -1,0 +1,110 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+}
+
+/* Header Section */
+.container {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(90deg, #445051, rgb(5, 199, 233));
+    color: white;
+}
+.profile-photo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-photo img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    border: 4px solid #0d0d0d;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #000;
+}
+
+/* Section Styling */
+.section {
+    padding: 20px;
+    background: white;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(18, 209, 226, 0.2);
+    animation: fadeIn 1s ease-in;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(5, 199, 233);
+}
+
+/* Projects Section */
+.project {
+    background:  linear-gradient(90deg, #445051, rgb(5, 199, 233));
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+/* Links */
+a {
+    color: rgb(5, 199, 233);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(90deg, #565048, rgb(5, 199, 233));
+    color: white;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.p{
+    height:50px
+}
